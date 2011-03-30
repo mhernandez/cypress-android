@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+	android:id="@+id/mainIntro"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:height="30dp" 
+    android:textSize="18px"
+    android:text="Please choose an activity:"
+    />
+    <Button
+    android:id="@+id/mainButtonCollect"
+    android:layout_width="wrap_content"
+    android:height="120dp"
+    android:width="320dp"
+    android:textSize="18px"
+    android:layout_height="wrap_content"
+    android:text="Add Location"
+    />
+    <Button
+    android:id="@+id/mainButtonView"
+    android:layout_width="wrap_content"
+    android:height="80dp"
+    android:width="320dp"
+    android:textSize="18px"
+    android:layout_height="wrap_content"
+    android:text="View Stored Locations"
+    />
+    <Button
+    android:id="@+id/mainButtonPreferences"
+    android:layout_width="wrap_content"
+    android:height="80dp"
+    android:width="320dp"
+    android:textSize="18px"
+    android:layout_height="wrap_content"
+    android:text="Edit Preferences"
+    />
+</LinearLayout>
